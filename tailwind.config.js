@@ -12,6 +12,9 @@ export default {
 		fontFamily: {
 		  'it-eb': ['it-eb', 'sans-serif'],
 		},
+		keyframes: {
+			
+		}
 	  },
 	},
 	plugins: [],
