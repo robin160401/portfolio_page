@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'it-eb';
+    src: url('/fonts/InterTight-Black.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+}
+
