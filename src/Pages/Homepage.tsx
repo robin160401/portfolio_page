@@ -3,7 +3,7 @@ import HeroSection from "../Components/HeroSection";
 
 export default function Homepage(){
 	return (
-		<main>
+		<main className="">
 			<HeroSection/>
 			<AboutMeSection/>
 		</main>
