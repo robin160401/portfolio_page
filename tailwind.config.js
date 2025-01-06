@@ -12,9 +12,28 @@ export default {
 		fontFamily: {
 		  'it-eb': ['it-eb', 'sans-serif'],
 		},
+		animation: {
+			'jump-in': 'jumpIn 0.4s ease forwards',
+		},
 		keyframes: {
-			
-		}
+			jumpIn: {
+				'0%': {
+					transform: 'translateY(0)',
+				},
+				'50%': {
+					transform: 'translateY(30px)',
+					opacity: '0'
+				},
+				'51%':
+				{
+					transform: 'translateY(-30px)',
+				},
+				'100%': {
+					transform: 'translateY(0)',
+					opacity: '1'
+				}
+			},
+		},
 	  },
 	},
 	plugins: [],
