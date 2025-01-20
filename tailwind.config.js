@@ -14,6 +14,7 @@ export default {
 		},
 		animation: {
 			'jump-in': 'jumpIn 0.4s ease forwards',
+			'fadeout-scroll': 'heroFadeOut '
 		},
 		keyframes: {
 			jumpIn: {
@@ -33,6 +34,11 @@ export default {
 					opacity: '1'
 				}
 			},
+			heroFadeOut: {
+				'100%': {
+					opacity: '0'
+				}
+			}
 		},
 	  },
 	},

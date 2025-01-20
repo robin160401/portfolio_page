@@ -2,10 +2,10 @@ import { Link } from "react-router";
 
 export default function Header(){
 	return(
-	<div className="flex justify-between bg-black text-white">
+	<div className="flex justify-between bg-black text-white font-thin">
 		<div className="flex items-center pr-5">
-			<Link to="/" className="text-xl font-bold m-3">By Robin</Link>
-			<p >a Web Developer</p>
+			<Link to="/" className="text-xl font-medium m-3">By Robin</Link>
+			<p >a Software Developer</p>
 		</div>
 		<nav className="m-5 flex items-center">
 			<Link to="/about" className="group flex p-2">
